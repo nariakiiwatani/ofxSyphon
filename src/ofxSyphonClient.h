@@ -38,6 +38,10 @@ class ofxSyphonClient {
 	
 	float getWidth();
 	float getHeight();
+	
+	ofTexture& getTextureReference(){
+		return mTex;
+	}
     
 	protected:
 	void* mClient;
